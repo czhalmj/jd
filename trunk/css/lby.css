@@ -1,0 +1,295 @@
+
+.com-title{
+    width: 1198px;
+}
+
+/* #lg{
+    border: 1px solid red;
+   
+    height: 100px;
+} */
+ .moshou{
+margin-left: 180px;
+
+}
+
+/* 乐购区域 */
+#lg .com-title ul li{
+    width: 260px;
+}
+
+#lg .tushu{
+    border-bottom:6px solid #f60;
+}
+
+#lg .byx ul li{
+    float: left;
+    list-style: none;
+    margin: 0 40px;
+    padding: 5px;
+    margin-left: 38px;
+}
+
+#lg .byx ul li:hover{
+    background-color: silver;
+    cursor: pointer;
+}
+
+
+/* 新书上架区域 */
+#xs .com-title{
+    border-bottom:6px solid #f60;
+}
+
+#xs .leftxs{
+    width: 900px;
+    height: 500px;
+    border: 1px solid red;
+}
+
+
+#xs .leftxs ul li{
+    width: 180px;
+    float: left;
+    line-height: 27px;
+    height: 252px;
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+}
+#xs .leftxs ul li:hover{
+    background-color: silver;
+}
+
+
+/* 主编推荐 */
+#xs .rightbox{
+    width: 280px;
+
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    height: 500px;
+}
+
+#xs .rightbox h4{
+    line-height: 38px;
+    color: #808080;
+}
+#xs .rightbox ul li{
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+    color: #4d4d4d;
+    list-style: none;
+    position: relative;
+    line-height: 28px;
+
+}
+#xs .rightbox ul li:last-child{
+   border: 0;
+}
+#xs .xs-right ul li .title.curtitle{
+    display: none;
+}
+
+#xs .rightbox ul li div{
+    display: none;
+}
+#xs .rightbox ul li div.cur{
+    display: block;
+}
+
+#xs .rightbox ul li span{
+    position: absolute;
+    left: -10px;
+    top: 5px;
+}
+
+#xs .rightbox ul li p{
+    list-style: 20px;
+    color: #404040;
+    padding: 5px;
+}
+
+
+/* 独家提供区域 */
+ .com-title ul li{
+    list-style: none;
+    width: 100px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+
+}
+ .com-title{
+        border-bottom:6px solid #f60;
+}
+ .com-title span{
+    line-height: 32px;
+    height: 34px;
+}
+
+ .tg {
+    padding: 0 36px 0 36px;
+}
+
+
+ .tg .tg2{
+    display: none;
+}
+ .tg .tg2.cur{
+    display: block;
+}
+
+ .tg .tg2 .slidebox>ul>li>ul>li{
+    width: 170px;
+    height: 220px;
+    list-style: none;
+}
+ .tg a {
+    list-style: none;
+    float: left;
+}
+
+ .tg .tg2 .slidebox>ul>li>ul>li p{
+    line-height: 24px;
+}
+ .tg .tg2 .slidebox>ul>li>ul>li p img{
+    width: 150px!important;
+    height: 150px!important;
+}
+
+ .tg .ab{
+    border: 6px solid red;
+}
+
+
+/* 猜你喜欢 */
+#guess .title a{
+    position: relative;
+    left: 30px;
+}
+#guess .tg {
+
+    position: relative;
+    width: 100%;
+
+}
+#guess .tg .box{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+}
+
+
+/* 尾部 */
+#rump{
+    position: relative;
+}
+#rump .box{
+    margin-top: 26px;
+    width: 100%;
+    height:100px;
+    background-color: #f2f2f2;
+    border-top: 6px #f60 solid;
+}
+#rump .box .icon{
+	width: 864px;
+    height: 50px;
+    /* border: solid 1px pink; */
+    margin:32px auto 18px;
+}
+#rump ul>li{
+    width: 126px;
+    float:left;
+    list-style: none;
+    
+}
+#rump ul>li:nth-child(2){
+    margin: 0 120px 0;
+}
+#rump ul>li:nth-child(3){
+    margin-right: 118px;
+}
+/* 第一部分 */
+
+/* 第二部分 */
+#List-services{
+    width:692px;
+    height: 130px;
+    /* border: solid 1px pink; */
+    margin-top: 46px;
+    /* box-sizing: border-box; */
+}
+#List-services ul{
+    float:left;
+    /* line-height:28px; */
+}
+#List-services ul li{
+    font-size: 16px;
+    list-style: none;
+}
+#List-services ul li:first-child{
+    font-size: 18px;
+}
+#List-services ul:nth-child(1){
+    width: 72px;
+    height: 130px;
+    /* border: solid 1px pink; */
+}
+#List-services ul:nth-child(2){
+    width: 90px;
+    height: 130px;
+    /* border: solid 1px pink; */
+    margin: 0 49px 0 49px;
+}
+#List-services ul:nth-child(3){
+    width: 108px;
+    height: 130px;
+    /* border: solid 1px pink; */
+}
+#List-services ul:nth-child(4){
+    width: 126px;
+    height: 130px;
+    /* border: solid 1px pink; */
+    margin: 0 49px 0 49px;
+}
+#List-services ul:nth-child(5){
+    width: 90px;
+    height: 100px;
+    /* border: solid 1px pink; */
+}
+#List-services ul>li:nth-child(2n){
+    margin: 8px 0;
+}
+/* 第二部分----------- */
+
+
+footer .fot-link a{
+    float: left;
+    color: #333;
+    display:block;
+    width: 99px;
+    height: 15px;
+    text-align: center;
+}
+footer .fot-link a:nth-child(1){
+    margin-left: 154px;
+}
+footer .fot-link a:nth-child(2){
+    width: 198px;
+}
+footer .fot-link a:not(:last-child){
+    border-right: 1px solid #000;
+}
+
+#rump .footer-logo img{
+    position: absolute;
+    top: 50%;
+    margin-top: -43px;
+    right:50%;
+    margin-right:-560px;
+}
+
+#rump p{
+    text-align: center;
+}

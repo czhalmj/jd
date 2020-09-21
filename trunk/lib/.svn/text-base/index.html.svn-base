@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<!-- 重置样式 -->
+<link rel="stylesheet" href="../css/normalize.css">
+<!-- 公共样式 -->
+<link rel="stylesheet" href="../css/global.css">
+<!-- 轮播样式 -->
+<link rel="stylesheet" href="../css/slider.css">
+<!-- 当前文件样式 -->
+<link rel="stylesheet" href="../css/index.css">
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <div class="top">
+            <div class="lg-container clearfix">
+                <!-- logo -->
+                <h1>
+                    <a href="index.html">
+                        <img src="../img/logo.jpg" alt="">
+                    </a>
+                </h1>
+                <div class="txturl fl"> legochina.cn</div>
+                <div class="logintxtbox fr">欢迎光临<a href="#">乐购</a> ，请<a href="#">登录</a> / <a href="#">注册</a></div>
+            </div>
+        </div>
+
+        <!-- 搜索区域 -->
+        <div class="searchbox lg-container  clearfix mt4">
+
+            <div class="fr cartorder">
+                <a href="#" class="fl">购物车<i>3</i></a>
+                <a href="#" class="fl">我的订单</a>
+            </div>
+            <form action="#" class="fr">
+                <input type="text" name="" placeholder="创意文具" class="fl">
+                <input type="submit" value="" class="fl">
+            </form>
+        </div>
+        <!-- 导航 -->
+        <nav class="lg-container clearfix">
+            <ul class="fr">
+                <li><a href="#">图书</a></li>
+                <li><a href="#">电子书</a></li>
+                <li><a href="#">原创文学</a></li>
+                <li><a href="#">服装</a></li>
+                <li><a href="#">运动户外</a></li>
+                <li><a href="#">孕婴鱼</a></li>
+                <li><a href="#">家居</a></li>
+                <li><a href="#">创意文学</a></li>
+                <li><a href="#">地方特产</a></li>
+                <li><a href="#">海外购</a></li>
+                <li><a href="#">电器城</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- banner区域 -->
+    <section id="banner" class="lg-container clearfix">
+        <ul class="list fl">
+            <li>
+                <p><a href="#">图书</a>&emsp;<a href="#">电子书</a>&emsp;<a href="#">童书</a></p>
+                <div class="menu">
+                    <img src="../img/434664_2e0b0.jpg" alt="">
+                </div>
+            </li>
+
+            <li>
+                <p><a href="#">创意文具</a></p>
+                <div class="menu">123</div>
+            </li>
+
+            <li>
+                <p><a href="#">服饰</a>&emsp;<a href="#">内衣</a> </p>
+                <div class="menu"></div>
+            </li>
+
+            <li>
+                <p><a href="#">鞋靴</a>&emsp;<a href="#">箱包</a> </p>
+                <div class="menu"></div>
+            </li>
+
+            <li>
+                <p><a href="#">运动户外</a></p>
+                <div class="menu"></div>
+            </li>
+
+            <li>
+                <p><a href="#">孕</a>&emsp;<a href="#">婴</a>&emsp;<a href="#">童</a></p>
+                <div class="menu"></div>
+            </li>
+
+            <li>
+                <p><a href="#">家居</a>&emsp;<a href="#">家纺</a>&emsp;<a href="#">汽车</a></p>
+                <div class="menu"></div>
+            </li>
+
+            <li>
+                <p><a href="#">家具</a>&emsp;<a href="#">家装</a>&emsp;<a href="#">康体</a></p>
+                <div class="menu"></div>
+            </li>
+
+            <li>
+                <p><a href="#">美妆</a>&emsp;<a href="#">个人护理</a>&emsp;<a href="#">成人</a></p>
+                <div class="menu"></div>
+            </li>
+
+            <li>
+                <p><a href="#">食品</a>&emsp;<a href="#">茶酒</a>&emsp;<a href="#">生鲜</a></p>
+                <div class="menu"></div>
+            </li>
+
+            <li>
+                <p><a href="#">腕表</a>&emsp;<a href="#">珠宝</a>&emsp;<a href="#">眼睛</a></p>
+                <div class="menu"></div>
+            </li>
+
+            <li>
+                <p><a href="#">手机</a>&emsp;<a href="#">数码</a></p>
+                <div class="menu"></div>
+            </li>
+
+            <li>
+                <p><a href="#">电脑办公</a></p>
+                <div class="menu"></div>
+            </li>
+
+            <li>
+                <p><a href="#">家用电器</a></p>
+                <div class="menu">
+
+                </div>
+            </li>
+
+        </ul>
+
+        <!-- 右边的轮播 -->
+        <div class="pptbox fl slidebox" id="slider">
+            <ul class="innerwrapper">
+                <li>
+                    <a href="#">
+                        <img src="../img/QQ图片20200904005736.jpg" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="../img/banner2.jpg" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="../img/banner3.jpg" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="../img/banner4.jpg" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="../img/banner5.jpg" />
+                    </a>
+                </li>
+            </ul>
+            <ul class="controls">
+                <li class="current">1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+            </ul>
+            <span class="btnleft"></span>
+            <span class="btnright"></span>
+        </div>
+    </section>
+    <!-- 今日推荐 -->
+    <section id="recommend" class="lg-container mt13">
+        <!-- 标题     -->
+        <div class="com-title ft24 cf60">乐购.今日推荐</div>
+        <!-- 内容区域 -->
+        <div class="re-con">
+            <ul>
+                <script>
+                    for (let i = 0; i < 12; i++) {
+                        document.write(
+                            `<li>
+                    <p class="tcenter"><img src="../img/index06_05.jpg" alt=""></p>
+                    <p><img src="../img/index05_18.jpg" alt=""></p>
+                    <p class="tindent10">黑爵青蜂侠六键电竞游戏鼠标</p>
+                    <p class="tindent10">全国联保 一年免费包换</p>
+                    <p class="tindent10">￥：299</p>
+                </li>`
+
+                        )
+
+                    }
+                </script>
+
+            </ul>
+
+        </div>
+    </section>
+    <!-- 电子书 -->
+    <section id="ebook" class="lg-container mt40  clearfix">
+        <div class="leftbox fl">
+            <!-- 头部 -->
+            <div class="com-title ft28 cf60 clearfix">图书 电子书
+                <ul class="fr ft18 c333 tcenter">
+                    <li class="fl active">最新上架</li>
+                    <li class="fl">独家畅销</li>
+                    <li class="fl">电子书</li>
+                </ul>
+            </div>
+            <!-- 内容区域 -->
+            <div class="con cur clearfix">
+                <div class="fl categorylinks">
+                    <img src="../img/index7_07.jpg" alt="">
+                    <div class="pl5">
+                        <a href="#">中小学教辅</a>
+                        <a href="#">外语</a>
+                        <a href="#">考试</a>
+                        <a href="#">小说</a>
+                        <a href="#">文学</a>
+                        <a href="#">青春文学</a>
+                        <a href="#">成功/励志</a>
+                        <a href="#">管理</a>
+                        <a href="#">历史</a>
+                        <a href="#">哲学/宗教</a>
+                        <a href="#">亲子/家教</a>
+                        <a href="#">全部分类></a>
+                    </div>
+                </div>
+                <!-- 右边图书 -->
+                <div class="bookslist fl">
+                    <ul>
+                        <li>
+                            <!-- 轮播开始 -->
+                            <div class="slidebox pptbox  haha" id="bookslider">
+                                <ul class="innerwrapper">
+                                    <li>
+                                        <a href="#">
+                                            <img src="../img/QQ图片20200904005754.jpg" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="../img/banner2.jpg" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="../img/banner3.jpg" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="../img/banner4.jpg" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="../img/banner5.jpg" />
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="controls">
+                                    <li class="current">1</li>
+                                    <li>2</li>
+                                    <li>3</li>
+                                    <li>4</li>
+                                    <li>5</li>
+                                </ul>
+                                <span class="btnleft"></span>
+                                <span class="btnright"></span>
+                            </div>
+                            <!-- 轮播结束 -->
+                        </li>
+                        <script>
+                            for (let i = 0; i < 6; i++) {
+                                document.write(
+                                    `<li>
+                                        <h3 class='pl5'>奥运狂欢</h3>
+                                        <p class="pl5 cred">十万种电子书 直降40%</p>
+                                        <p>
+                                        <img src="../img/index09_05.jpg" alt="">
+                                        </p>
+                                        <p class="pl5">
+                                            <span class="cred">￥49</span>
+                                            <span class="del">￥79</span>
+                                        </p>
+                                </li>`
+                                )
+
+                            }
+                        </script>
+
+                    </ul>
+                </div>
+            </div>
+            <!-- 第二个内容区域 -->
+            <div class="con cur clearfix">
+                <div class="fl categorylinks">
+                    <img src="../img/index7_07.jpg" alt="">
+                    <div class="pl5">
+                        <a href="#">中小学教辅</a>
+                        <a href="#">外语</a>
+                        <a href="#">考试</a>
+                        <a href="#">小说</a>
+                        <a href="#">文学</a>
+                        <a href="#">青春文学</a>
+                        <a href="#">成功/励志</a>
+                        <a href="#">管理</a>
+                        <a href="#">历史</a>
+                        <a href="#">哲学/宗教</a>
+                        <a href="#">亲子/家教</a>
+                        <a href="#">全部分类></a>
+                    </div>
+                </div>
+                <!-- 右边图书 -->
+                <div class="bookslist fl">
+                    <ul>
+                        <li>
+                            <!-- 轮播开始 -->
+                            <div class="slidebox pptbox  haha" id="bookslider2">
+                                <ul class="innerwrapper">
+                                    <li>
+                                        <a href="#">
+                                            <img src="../img/QQ图片20200904005754.jpg" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="../img/banner2.jpg" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="../img/banner3.jpg" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="../img/banner4.jpg" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="../img/banner5.jpg" />
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="controls">
+                                    <li class="current">1</li>
+                                    <li>2</li>
+                                    <li>3</li>
+                                    <li>4</li>
+                                    <li>5</li>
+                                </ul>
+                                <span class="btnleft"></span>
+                                <span class="btnright"></span>
+                            </div>
+                            <!-- 轮播结束 -->
+                        </li>
+                        <script>
+                            for (let i = 0; i < 6; i++) {
+                                document.write(
+                                    `<li>
+                                        <h3 class='pl5'>奥运狂欢</h3>
+                                        <p class="pl5 cred">十万种电子书 直降40%</p>
+                                        <p>
+                                        <img src="../img/index09_05.jpg" alt="">
+                                        </p>
+                                        <p class="pl5">
+                                            <span class="cred">￥49</span>
+                                            <span class="del">￥79</span>
+                                        </p>
+                                </li>`
+                                )
+
+                            }
+                        </script>
+
+                    </ul>
+                </div>
+            </div>
+            <!-- 第三个内容区域 -->
+            <div class="con cur clearfix">
+                <div class="fl categorylinks">
+                    <img src="../img/index7_07.jpg" alt="">
+                    <div class="pl5">
+                        <a href="#">中小学教辅</a>
+                        <a href="#">外语</a>
+                        <a href="#">考试</a>
+                        <a href="#">小说</a>
+                        <a href="#">文学</a>
+                        <a href="#">青春文学</a>
+                        <a href="#">成功/励志</a>
+                        <a href="#">管理</a>
+                        <a href="#">历史</a>
+                        <a href="#">哲学/宗教</a>
+                        <a href="#">亲子/家教</a>
+                        <a href="#">全部分类></a>
+                    </div>
+                </div>
+                <!-- 右边图书 -->
+                <div class="bookslist fl">
+                    <ul>
+                        <li>
+                            <!-- 轮播开始 -->
+                            <div class="slidebox pptbox  haha" id="bookslider3">
+                                <ul class="innerwrapper">
+                                    <li>
+                                        <a href="#">
+                                            <img src="../img/QQ图片20200904005754.jpg" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="../img/banner2.jpg" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="../img/banner3.jpg" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="../img/banner4.jpg" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="../img/banner5.jpg" />
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="controls">
+                                    <li class="current">1</li>
+                                    <li>2</li>
+                                    <li>3</li>
+                                    <li>4</li>
+                                    <li>5</li>
+                                </ul>
+                                <span class="btnleft"></span>
+                                <span class="btnright"></span>
+                            </div>
+                            <!-- 轮播结束 -->
+                        </li>
+                        <script>
+                            for (let i = 0; i < 6; i++) {
+                                document.write(
+                                    `<li>
+                                        <h3 class='pl5'>奥运狂欢</h3>
+                                        <p class="pl5 cred">十万种电子书 直降40%</p>
+                                        <p>
+                                        <img src="../img/index09_05.jpg" alt="">
+                                        </p>
+                                        <p class="pl5">
+                                            <span class="cred">￥49</span>
+                                            <span class="del">￥79</span>
+                                        </p>
+                                </li>`
+                                )
+
+                            }
+                        </script>
+
+                    </ul>
+                </div>
+            </div>
+    <!-- 第三个内容区域结束 -->
+        </div>
+        <!-- <div class="ebook-right fl">
+            <h4 class="tcenter ft24">新手畅销榜</h4>
+            <ul class="pdl22">
+                <li>
+                    <span class="cred">1</span>
+                    <p class="title curtitle">臣等正欲死战 陛下何故先降</p>
+                    <div class="clearfix cur">
+                        <img src="../img/434664_2e0b0.jpg" alt="" class="fl">
+                        <p class="ft12">
+
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div> -->
+    </section>
+    <!-- 服装 -->
+    <section id="cloth" class="lg-container">服装</section>
+    <!-- 户外运动 -->
+    <section id="sport" class="lg-container">户外运动</section>
+    <!--童装 童鞋 婴儿装  -->
+    <section id="childcloth" class="lg-container">童鞋</section>
+    <!-- 家居日用 -->
+    <section id="house" class="lg-container">家居日用</section>
+    <!-- 推广商品 -->
+    <section id="spread" class="lg-container">推广商品</section>
+    <!-- 页尾 -->
+    <footer>页尾</footer>
+    <script src="../js/插件/jquery.min.js"></script>
+    <script src="../js/插件/jquery.slidebox.js"></script>
+    <script src="../js/index.js"></script>
+
+</body>
+
+</html>

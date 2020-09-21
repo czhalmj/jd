@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<!-- 重置样式 -->
+<link rel="stylesheet" href="./css/normalize.css">
+<!-- 公共样式 -->
+<link rel="stylesheet" href="./css/global.css">
+<!-- 轮播样式 -->
+<link rel="stylesheet" href="./css/slider.css">
+<!-- 当前文件样式 -->
+<link rel="stylesheet" href="./css/lby.css">
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <div class="top">
+            <div class="lg-container clearfix">
+                <!-- logo -->
+                <h1>
+                    <a href="#">
+                        <img src="./img/logo.jpg" alt="">
+                    </a>
+                </h1>
+                <div class="txturl fl"> legochina.cn</div>
+                <div class="logintxtbox fr">欢迎光临<a href="#">乐购</a> ，请<a href="#">登录</a> / <a href="#">注册</a></div>
+            </div>
+        </div>
+
+        <!-- 搜索区域 -->
+        <div class="searchbox lg-container  clearfix mt4">
+
+            <div class="fr cartorder">
+                <a href="#" class="fl">购物车<i>3</i></a>
+                <a href="#" class="fl">我的订单</a>
+            </div>
+            <form action="#" class="fr">
+                <input type="text" name="" placeholder="创意文具" class="fl">
+                <input type="submit" value="" class="fl">
+            </form>
+        </div>
+
+        <nav class="lg-container clearfix">
+            <ul class="fr">
+                <li><a href="#">图书</a></li>
+                <li><a href="#">电子书</a></li>
+                <li><a href="#">原创文学</a></li>
+                <li><a href="#">服装</a></li>
+                <li><a href="#">运动户外</a></li>
+                <li><a href="#">孕婴鱼</a></li>
+                <li><a href="#">家居</a></li>
+                <li><a href="#">创意文学</a></li>
+                <li><a href="#">地方特产</a></li>
+                <li><a href="#">海外购</a></li>
+                <li><a href="#">电器城</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- banner区域 -->
+    <section id="banner" class="lg-container clearfix">
+
+        <!-- 右边的轮播 -->
+        <div class="pptbox  slidebox" id="slider">
+            <ul class="innerwrapper">
+                <li>
+                    <a href="#">
+                        <img src="./img/QQ图片20200904005736.jpg" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./img/banner2.jpg" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./img/banner3.jpg" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./img/banner4.jpg" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./img/banner5.jpg" />
+                    </a>
+                </li>
+            </ul>
+            <ul class="controls">
+                <li class="current">1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+            </ul>
+            <span class="btnleft"></span>
+            <span class="btnright"></span>
+        </div>
+
+    </section>
+    <img src="./img/moshou.jpg" alt="" class="moshou lg-container">
+
+    <!-- 乐购 · 图书折扣区 -->
+    <section id="lg" class="lg-container mt40 clearfix ">
+        <!-- 头部 -->
+        <div class="com-title ft28 tushu">
+            <ul>
+                <li class=" active">乐购 · 图书折扣区</li>
+            </ul>
+
+        </div>
+        <!-- 内容区域 -->
+        <div class="byx">
+            <ul>
+                <script>
+                    for (let i = 0; i < 5; i++) {
+                        document.write(
+                            `<li>
+                             <p>
+                            <img src="./img/22935553-1_l.jpg" alt="">
+                            </p>
+                           
+                            <h3 class='pl5'>白夜行  东野上吾</h3>
+                           <p class="cred">推荐：<img src="./img/xingxing.png" alt=""></p>
+                            <p class="pl5">
+                                <span class="cred ft28">￥38</span>
+                            
+                            </p>
+                    </li>`
+                        )
+
+                    }
+                </script>
+
+
+                <script>
+                    for (let i = 0; i < 5; i++) {
+                        document.write(
+                            `<li>
+                                     <p>
+                                    <img src="./img/22788959-1_l.jpg" alt="">
+                                    </p>
+                                   
+                                    <h3 class='pl5'>白夜行  东野上吾</h3>
+                                   <p class="cred">推荐：<img src="./img/xingxing.png" alt=""></p>
+                                    <p class="pl5">
+                                        <span class="cred ft28">￥30</span>
+                                     
+                                    </p>
+                            </li>`
+                        )
+
+                    }
+                </script>
+
+            </ul>
+        </div>
+    </section>
+
+    <!-- 新书上架区域 -->
+    <section id="xs" class="lg-container mt40 clearfix">
+        <!-- 头部 -->
+        <div class="com-title ft28 ">
+            <span class="active ft32">新</span>书上架
+        </div>
+        <!-- 左边部分 -->
+        <div class="leftxs clearfix fl">
+            <ul class="">
+                <script>
+                    for (let i = 0; i < 5; i++) {
+                        document.write(
+                            `<li>
+                             <p>
+                            <img src="./img/22928335-1_l.jpg" alt="">
+                            </p>
+                           
+                            <h3 class='pl5'>查理 斯密斯</h3>
+                           <p>中国邮电出版社</p>
+                            <p class="pl5">
+                                <span class="cred ft28">￥49</span>
+                                <span class=' del'>￥79</span>
+                            </p>
+                    </li>`
+                        )
+
+                    }
+                </script>
+
+
+                <script>
+                    for (let i = 0; i < 5; i++) {
+                        document.write(
+                            `<li>
+                                     <p>
+                                    <img src="./img/22499729-1_l_5.jpg" alt="">
+                                    </p>
+                                   
+                                    <h3 class='pl5'>查理 斯密斯</h3>
+                                   <p>中国邮电出版社</p>
+                                    <p class="pl5">
+                                        <span class="cred ft28">￥30</span>
+                                        <span class="del">￥79</span>
+                                    </p>
+                            </li>`
+                        )
+
+                    }
+                </script>
+
+            </ul>
+        </div>
+        <!-- 右边部分 -->
+
+        <div class="rightbox fr">
+            <h4 class="tcenter ft24">主编推荐</h4>
+            <ul class="pdl22">
+                <li>
+                    <span class="cred">1</span>
+                    <p class="title curtitle">我计不成，乃天命也！</p>
+                    <div class="clearfix cur">
+                        <img src="./img/index08_05.jpg" alt="" class="fl">
+                        <p class="ft12">
+                            从你的世界路过
+                            入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐， 1500万次转发，超4亿次阅读
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <span class="cred">2</span>
+                    <p class="title curtitle">我计不成，乃天命也！</p>
+                    <div class="clearfix ">
+                        <img src="./img/index08_05.jpg" alt="" class="fl">
+                        <p class="ft12">
+                            从你的世界路过
+                            入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐， 1500万次转发，超4亿次阅读
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <span class="cred">3</span>
+                    <p class="title curtitle">我计不成，乃天命也！</p>
+                    <div class="clearfix ">
+                        <img src="./img/index08_05.jpg" alt="" class="fl">
+                        <p class="ft12">
+                            从你的世界路过
+                            入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐， 1500万次转发，超4亿次阅读
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <span>4</span>
+                    <p class="title curtitle">我计不成，乃天命也！</p>
+                    <div class="clearfix ">
+                        <img src="./img/index08_05.jpg" alt="" class="fl">
+                        <p class="ft12">
+                            从你的世界路过
+                            入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐， 1500万次转发，超4亿次阅读
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <span>5</span>
+                    <p class="title curtitle">我计不成，乃天命也！</p>
+                    <div class="clearfix ">
+                        <img src="./img/index08_05.jpg" alt="" class="fl">
+                        <p class="ft12">
+                            从你的世界路过
+                            入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐， 1500万次转发，超4亿次阅读
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <span>6</span>
+                    <p class="title curtitle">我计不成，乃天命也！</p>
+                    <div class="clearfix ">
+                        <img src="./img/index08_05.jpg" alt="" class="fl">
+                        <p class="ft12">
+                            从你的世界路过
+                            入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐， 1500万次转发，超4亿次阅读
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <span>7</span>
+                    <p class="title curtitle">我计不成，乃天命也！</p>
+                    <div class="clearfix ">
+                        <img src="./img/index08_05.jpg" alt="" class="fl">
+                        <p class="ft12">
+                            从你的世界路过
+                            入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐， 1500万次转发，超4亿次阅读
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+    </section>
+
+
+
+
+    <!-- 独家提供区域 -->
+    <section id="djtg" class="lg-container mt40 clearfix">
+        <!-- 头部 -->
+        <div class="com-title ft28  clearfix bd">
+            <span class="active">独</span> 家提供
+            <ul class="fr ft18 c333 tcenter">
+                <li class="fl active">货币金融</li>
+                <li class="fl">社会文学</li>
+                <li class="fl">科学技术</li>
+            </ul>
+        </div>
+
+        <!-- 内容区域 -->
+        <div class="tg clearfix fl">
+
+            <div class="tg2 cur">
+                <div class="pptbox  slidebox" id="slider2">
+                    <ul class="innerwrapper">
+                        <li>
+                            <ul>
+                                <li>
+                                    <p>
+                                        <img src="./img/QQ图片20200904005416.jpg" alt="">
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <img src="./img/QQ图片20200904005416.jpg" alt="">
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <img src="./img/QQ图片20200904005416.jpg" alt="">
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <img src="./img/QQ图片20200904005416.jpg" alt="">
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <img src="./img/QQ图片20200904005416.jpg" alt="">
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <img src="./img/QQ图片20200904005416.jpg" alt="">
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <img src="./img/QQ图片20200904005416.jpg" alt="">
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <img src="./img/QQ图片20200904005416.jpg" alt="">
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <img src="./img/QQ图片20200904005416.jpg" alt="">
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <img src="./img/QQ图片20200904005416.jpg" alt="">
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <img src="./img/QQ图片20200904005416.jpg" alt="">
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <img src="./img/QQ图片20200904005416.jpg" alt="">
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <img src="./img/QQ图片20200904005416.jpg" alt="">
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <img src="./img/QQ图片20200904005416.jpg" alt="">
+                                    </p>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                    <!-- <ul class="controls">
+                        <li class="current">1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <li>5</li>
+                    </ul> -->
+                    <span class="btnleft"></span>
+                    <span class="btnright"></span>
+                </div>
+            </div>
+
+            <div class="tg2 a">
+
+
+                <ul>
+                    <li>
+                        <p><img src="./img/QQ图片20200904005614.jpg" alt=""></p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <p><img src="./img/QQ图片20200904005614.jpg" alt=""></p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <p><img src="./img/QQ图片20200904005614.jpg" alt=""></p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <p><img src="./img/QQ图片20200904005614.jpg" alt=""></p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <p><img src="./img/QQ图片20200904005614.jpg" alt=""></p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <p><img src="./img/QQ图片20200904005614.jpg" alt=""></p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <p><img src="./img/QQ图片20200904005614.jpg" alt=""></p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <p><img src="./img/QQ图片20200904005614.jpg" alt=""></p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <p><img src="./img/QQ图片20200904005614.jpg" alt=""></p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <p><img src="./img/QQ图片20200904005614.jpg" alt=""></p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <p><img src="./img/QQ图片20200904005614.jpg" alt=""></p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <p><img src="./img/QQ图片20200904005614.jpg" alt=""></p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <p><img src="./img/QQ图片20200904005614.jpg" alt=""></p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <p><img src="./img/QQ图片20200904005614.jpg" alt=""></p>
+                    </li>
+                </ul>
+
+
+
+            </div>
+
+
+            <div class="tg2">
+                科学技术
+            </div>
+        </div>
+    </section>
+
+
+    <!-- 猜你喜欢区域 -->
+    <section id="guess" class="lg-container mt40 clearfix">
+        <!-- 头部 -->
+        <div class="title clearfix bd ">
+            <h2 class="com-title fs24 cf60 fl">猜你喜欢</h2>
+            <a class="rightbox fr"><img src="./img/换一批.jpg" alt=""></a>
+        </div>
+
+        <!-- 内容区域 -->
+        <div class="tg bd fr">
+
+            <div class="box ">
+                <!-- 货币金融 -->
+                <div class="proconbox  cur ">
+                    1货币金融
+                </div>
+                <!-- 2社会文学 -->
+                <div class="proconbox ">
+                    2社会文学
+                </div>
+                <!--3科学技术  -->
+                <div class="proconbox ">
+                    3科学技术
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 尾部 -->
+    <footer id="rump">
+        <div class="box">
+            <ul class="icon clearfix">
+                <li><img src="./img/222_11.png" alt="#"></li>
+                <li><img src="./img/222_13(1).png" alt="#"></li>
+                <li><img src="./img/222_15.png" alt="#"></li>
+                <li><img src="img/222_17.png" alt="#"></li>
+            </ul>
+        </div>
+
+        <div id="List-services" class="lg-container clearfix">
+            <ul>
+                <li>
+                    购物指南
+                </li>
+                <li>
+                    购物流程
+                </li>
+                <li>
+                    发票制度
+                </li>
+                <li>
+                    账户管理
+                </li>
+                <li>
+                    会员优惠
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+                    支付方式
+
+                </li>
+                <li>
+                    货到付款
+
+                </li>
+                <li>
+                    网上支付
+
+                </li>
+                <li>
+                    礼品卡支付
+
+                </li>
+                <li>
+                    银行转帐
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+                    订单服务
+                </li>
+                <li>
+                    订单配送查询
+                </li>
+                <li>
+                    订单状态说明
+                </li>
+                <li>
+                    自助取消订单
+                </li>
+                <li>
+                    自助修改订单
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+                    退换货
+
+                </li>
+                <li>
+                    退换货政策
+
+                </li>
+                <li>
+                    自助申请退换货
+
+                </li>
+                <li>
+                    退换货进度查询
+
+                </li>
+                <li>
+                    退款方式和时间
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+                    商家服务
+                </li>
+                <li>
+                    商家中心
+                </li>
+                <li>
+                    运营服务
+                </li>
+                <li>
+                    加入尾品汇
+                </li>
+            </ul>
+
+        </div>
+
+
+        <div class="fot-link lg-container mt40 clearfix">
+            <a href="#">公司简介</a>
+            <a href="#">Investor Relations</a>
+            <a href="#">网站联盟</a>
+            <a href="#">乐购招商</a>
+            <a href="#">机构销售</a>
+            <a href="#">手机乐购</a>
+            <a href="#">官方Blog</a>
+            <a href="#">官方Blog</a>
+        </div>
+
+        <p class="lg-container mt40">Copyright (C) 乐购网 2004-2016, All Rights Reserved</p>
+        <div class="footer-logo">
+            <img src="./img/logo_00.png" alt="">
+        </div>
+    </footer>
+
+
+
+    <script src="./js/插件/jquery.min.js"></script>
+    <script src="./js/插件/jquery.slidebox.js"></script>
+    <script src="./js/lby.js"></script>
+</body>
+
+</html>

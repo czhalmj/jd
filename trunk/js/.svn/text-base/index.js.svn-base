@@ -1,0 +1,256 @@
+
+//文档加载事件
+$(function () {
+    $("#slider").slidebox({
+        boxh: 430,//盒子的高度
+        w: 1000,//图片的宽度
+        h: 430,//图片的高度
+        isShow: true,//是否显示控制器
+        isShowBtn: true,//是否显示左右按钮
+        controltop: 10,//控制按钮上下偏移的位置,要将按钮向下移动   首先保证boxh 高度>图片 h
+        controlsW: 12,//控制按钮宽度
+        controlsH: 12,//控制按钮高度
+        radius: 6//控制按钮圆角度数
+    });
+})
+
+
+
+$(function () {
+    $("#bookslider").slidebox({
+        boxh: 218,//盒子的高度
+        w: 330,//图片的宽度
+        h: 218,//图片的高度
+        isShow: true,//是否显示控制器
+        isShowBtn: true,//是否显示左右按钮
+        controltop: 10,//控制按钮上下偏移的位置,要将按钮向下移动   首先保证boxh 高度>图片 h
+        controlsW: 12,//控制按钮宽度
+        controlsH: 12,//控制按钮高度
+        radius: 6//控制按钮圆角度数
+    });
+})
+
+
+$(function () {
+    $("#bookslider2").slidebox({
+        boxh: 218,//盒子的高度
+        w: 330,//图片的宽度
+        h: 218,//图片的高度
+        isShow: true,//是否显示控制器
+        isShowBtn: true,//是否显示左右按钮
+        controltop: 10,//控制按钮上下偏移的位置,要将按钮向下移动   首先保证boxh 高度>图片 h
+        controlsW: 12,//控制按钮宽度
+        controlsH: 12,//控制按钮高度
+        radius: 6//控制按钮圆角度数
+    });
+})
+
+
+$(function () {
+    $("#bookslider3").slidebox({
+        boxh: 218,//盒子的高度
+        w: 330,//图片的宽度
+        h: 218,//图片的高度
+        isShow: true,//是否显示控制器
+        isShowBtn: true,//是否显示左右按钮
+        controltop: 10,//控制按钮上下偏移的位置,要将按钮向下移动   首先保证boxh 高度>图片 h
+        controlsW: 12,//控制按钮宽度
+        controlsH: 12,//控制按钮高度
+        radius: 6//控制按钮圆角度数
+    });
+})
+
+
+$('#ebook .leftbox .com-title li').mouseenter(function () {
+    $(this).addClass('active').siblings().removeClass('active')
+    let index = $(this).index();
+    $('#ebook .leftbox .con').eq(index).addClass('cur').siblings().removeClass('cur')
+})
+
+
+// 新书畅销榜
+$('#ebook .rightbox ul li').mouseenter(function () {
+    $(this).find('div').show();
+    $(this).find('title').hide();
+    $(this).siblings().find('div').hide();
+    $(this).siblings().find('title').show();
+})
+
+
+$(function () {
+    $("#bookslider4").slidebox({
+        boxh: 340,//盒子的高度
+        w: 425,//图片的宽度
+        h: 340,//图片的高度
+        isShow: true,//是否显示控制器
+        isShowBtn: true,//是否显示左右按钮
+        controltop: 10,//控制按钮上下偏移的位置,要将按钮向下移动   首先保证boxh 高度>图片 h
+        controlsW: 12,//控制按钮宽度
+        controlsH: 12,//控制按钮高度
+        radius: 6//控制按钮圆角度数
+    });
+})
+
+
+$(' .lbox .com-title li').mouseenter(function () {
+    $(this).addClass('active').siblings().removeClass('active')
+    let index = $(this).index();
+    $('#cloth .lbox .con').eq(index).addClass('cur').siblings().removeClass('cur')
+})
+
+
+$(function () {
+    $("#bookslider5").slidebox({
+        boxh: 340,//盒子的高度
+        w: 425,//图片的宽度
+        h: 340,//图片的高度
+        isShow: true,//是否显示控制器
+        isShowBtn: true,//是否显示左右按钮
+        controltop: 10,//控制按钮上下偏移的位置,要将按钮向下移动   首先保证boxh 高度>图片 h
+        controlsW: 12,//控制按钮宽度
+        controlsH: 12,//控制按钮高度
+        radius: 6//控制按钮圆角度数
+    });
+})
+
+
+$(function () {
+    $("#bookslider6").slidebox({
+        boxh: 340,//盒子的高度
+        w: 425,//图片的宽度
+        h: 340,//图片的高度
+        isShow: true,//是否显示控制器
+        isShowBtn: true,//是否显示左右按钮
+        controltop: 10,//控制按钮上下偏移的位置,要将按钮向下移动   首先保证boxh 高度>图片 h
+        controlsW: 12,//控制按钮宽度
+        controlsH: 12,//控制按钮高度
+        radius: 6//控制按钮圆角度数
+    });
+})
+
+
+$(function () {
+    $("#bookslider7").slidebox({
+        boxh: 340,//盒子的高度
+        w: 425,//图片的宽度
+        h: 340,//图片的高度
+        isShow: true,//是否显示控制器
+        isShowBtn: true,//是否显示左右按钮
+        controltop: 10,//控制按钮上下偏移的位置,要将按钮向下移动   首先保证boxh 高度>图片 h
+        controlsW: 12,//控制按钮宽度
+        controlsH: 12,//控制按钮高度
+        radius: 6//控制按钮圆角度数
+    });
+})
+
+
+$(function () {
+    $("#bookslider8").slidebox({
+        boxh: 340,//盒子的高度
+        w: 425,//图片的宽度
+        h: 340,//图片的高度
+        isShow: true,//是否显示控制器
+        isShowBtn: true,//是否显示左右按钮
+        controltop: 10,//控制按钮上下偏移的位置,要将按钮向下移动   首先保证boxh 高度>图片 h
+        controlsW: 12,//控制按钮宽度
+        controlsH: 12,//控制按钮高度
+        radius: 6//控制按钮圆角度数
+    });
+})
+
+
+
+
+
+
+
+
+// 楼层盒子的背景色
+// let bacolors=[''];
+// $('.floornav ul li').hover(function(){
+//     let index=$(this).index();
+//     $(this).css('backgroundcolor',bgcolors[index]);
+// },function(){
+//     $(this).css('backgroundColor','')
+// })
+
+
+// 第二种方法
+
+// $('.floornav ul li').hover(function () {
+//     $(this).css({
+//         'backgroundColor': $(this).attr('bgc'),
+//         'backgroundColor': -40,
+//         width: 40
+//     });
+// }, function () {
+//     $(this).css({
+
+//         'backgroundColor': '',
+//         'backgroundPositionX': 0,
+//         width: 0
+//     });
+// }).click(function(){
+//     let $jumpBox = $('.floor').eq($(this).index());
+//     let top = $jumpBox.offset().top;
+//     $('html.body').stop().animate({ scrollTop: top }, 300)
+// })
+
+
+
+
+// 推广交互------
+$("#spread .Promotion-List ul li").mouseenter(function () {
+    $(this).addClass("Moving-bg").siblings().removeClass("Moving-bg")
+})
+
+// 楼层
+let bgcr = ["#93d46f", "#f65727", "#bb9dee", "#ff7394", "#c2ec51"];
+$("#Rolling-floor ul li").hover(function () {
+    let index = $(this).index();
+    $(this).css("background-color", bgcr[index]);
+    $(this).css("background-positionX", "-40px"),
+        $(this).css("width", "40px");
+     
+}, function () {
+    $(this).css("background", ""),
+        $(this).css("background-positionX", "0"),
+        $(this).css("width", "0");
+})
+$("#Rolling-floor ul li").click(function(){
+    let $FloorScroll=$(".floor").eq($(this).index());
+    let top=$FloorScroll.offset().top;
+    $("html,body").stop().animate({ scrollTop:top },300)
+})
+
+$("#Coupon-Centre ul .second img").hover(function(){
+
+    $("#Coupon-Centre ul li div").stop().animate({left:-100},300)
+
+},function(){
+    $("#Coupon-Centre ul li div").stop().animate({left:40},300)
+})
+
+// 回到顶部------
+window.addEventListener("scroll",function(){
+    let st=document.documentElement.scrollTop;
+    console.log(st);
+    if(st>=4273){
+        Returntop.style.display="block";
+    }else{
+        Returntop.style.display="none";
+    }
+})
+Returntop.addEventListener("click",function(){
+    let timerId=setInterval(function(){
+        let st=document.documentElement.scrollTop||document.boby.scrollTop
+        console.log("当前卷动的值：",st);
+        let newst=st-50;
+        document.documentElement.scrollTop=newst;
+        document.body.scrollTop=newst;
+        if(newst<=0){
+            clearInterval(timerId)
+        }
+
+    },30)
+})
